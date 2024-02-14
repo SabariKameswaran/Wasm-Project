@@ -1,0 +1,7 @@
+- To install wasm-pack `cargo install wasm-pack`
+- To check the version `wasm-pack --version`
+- To create Rust Library `cargo new --lib factorial_calculator`
+- To navigate to directory `cd factorial_calculator`
+- Compiling the Rust code and Building Wasm `wasm-pack build`
+- Installing a Web server `npm install -g http-server`
+- To run the web server `http-server .`
