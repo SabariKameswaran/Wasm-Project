@@ -5,4 +5,5 @@ pub extern "C" fn factorial(n: u32) -> u32 {
     } else {
         n * factorial(n - 1)
     }
+    println!("Completed");
 }
